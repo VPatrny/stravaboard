@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.strava_orange {
+    color: #FC4C02;
+}
+.grey {
+    color: #999;
+}
+h3 {
+	font-size: 13px;
+}
+ul.inline {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.inline li {
+	display: inline;
+	margin-right: 9.75px;
+}
+.activity {
+    padding: 15px;
+}
+.avatar {
+	width: 60px;
+    height: 60px;
+	box-sizing: border-box;
+}
+.social {
+    width: 120px;
+    margin-top: 5px;
+}
+img.round_avatar {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+	margin-top: 0;
+    margin-left: 0px;
+    z-index: 1;
+}

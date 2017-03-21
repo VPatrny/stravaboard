@@ -1,0 +1,16 @@
+security:
+  oauth2:
+    client:
+      clientId: SET_VALUE
+      clientSecret: SET_VALUE
+      accessTokenUri: https://www.strava.com/oauth/token
+      userAuthorizationUri: https://www.strava.com/oauth/authorize
+      tokenName: access_token
+      authenticationScheme: header
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://www.strava.com/api/v3/athlete
+
+logging:
+  level:
+    org.springframework.security: INFO
