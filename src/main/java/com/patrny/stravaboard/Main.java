@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableOAuth2Sso
 @RestController
-public class SocialApplication extends WebSecurityConfigurerAdapter {
+public class Main extends WebSecurityConfigurerAdapter {
     @Autowired
     OAuth2ClientContext oauth2ClientContext;
 
@@ -24,7 +24,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SocialApplication.class, args);
+        SpringApplication.run(Main.class, args);
     }
 
 }
